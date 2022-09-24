@@ -1,2 +1,1 @@
-# Simlpe-website
-Simple websites created using HTML and CSS
+Here my simple websites which I created using HTML and CSS 
