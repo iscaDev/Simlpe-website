@@ -1,0 +1,158 @@
+body, h1, h2, h3, p, ul, span, textarea, label{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #35424a;
+    border-bottom: 4px solid red;
+    /* position: fixed ;
+    width: 100%; */
+}
+#header h1{
+    color: #fff;
+    padding: 15px 0px;
+    display: inline-block;
+}
+#header span{
+    color: coral;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    float: right;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline;
+}
+.navbar li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 25px 10px;
+    font-family: sans-serif;
+}
+.navbar li a:hover{
+    color: coral;
+}
+#main{
+    background-image: url(pic.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    border-bottom: 4px solid red ;
+}
+#main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding-top: 45px;
+    margin-bottom: 30px;
+}
+#letter{
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0px;
+    display: inline-block;
+    width: 100%;
+}
+#text h3{
+    float: left;
+    padding-top: 4px;
+}
+#text button, input{
+    float: right;
+}
+#text button{
+    padding: 7px 3px;
+    color: #fff;
+    background-color: coral;
+    border: 0px;
+    margin-left: 10px;
+}
+#text button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: coral;
+}
+#text input{
+    padding: 5.5px 2px;
+}
+#boxes{
+    padding-top: 20px;
+    width: 100%;
+}
+.box{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+.box img{
+    width: 130px;
+    max-width: 100%;
+    
+}
+#courses h3,p{
+    font-family: sans-serif;
+}
+#courses p{
+    padding: 5px;
+}
+.clr{
+    clear: both;
+}
+#foter{
+    background-color: coral;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0px;
+    margin: 20px 0px;
+}
+#aboutus{
+    padding: 20px 0px;
+    font-family: sans-serif;
+}
+.main-content{
+    width: 65%;
+    float: left;
+}
+.sidebar{
+    width: 30%;
+    float: right;
+}
+.bg-dark{
+    background-color: #35424a;
+    color: #fff;
+    padding: 10px;
+    margin: 40px 0px;
+}
+.main-content h1, .sidebar h3{
+    padding-bottom: 10px;
+}
+#services h2{
+    padding: 10px 0px;
+}
+.box-service{
+    background-color: #e5e5e5;
+    border: 1px solid #35424a;
+    padding: 25px;
+    margin: 15px 0px;
+}
+label{
+    display: block;
+    margin: 10px 0px;
+}
+.input, textarea{
+    width: 100%;
+    padding: 7px 0px;
+}
+#services .sidebar h3{
+    margin-top: 10px;
+}
+.active{
+    color: coral !important;
+}
